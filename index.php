@@ -3,11 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Convivir Plus</title>
+	<meta name="description" content="Llega Convivir+Plus la herramienta definitiva destinada al segmento del buen vivir">
+
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!-- VIEWPORT -->
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- CSS -->
+	
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- FAVICON -->
+
+
+	<!--[if IE]><script src="js/html5shiv.min.js"></script><![endif]-->
+
 
 </head>
 <body>
@@ -94,22 +107,56 @@
 	</section> <!-- End of Nosotros -->
 
 	<section class="Servicios">
-		<article>
-			<h2>Servicios</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quaerat tempora. Beatae possimus maxime, vitae, impedit iusto praesentium ipsum est sit accusamus esse ipsam tenetur temporibus tempora, accusantium vel totam.
-			</p>
-		</article>
-		<div class="Contenedor_Servicios1">
-			<ul>
-				<li></li>
-			</ul>
-		</div> <!-- End of Contenedor_Servicios1 -->
+		<div class="Contenedor_servicios">
+			<div class="Col_servicios1">
+				<h2>Servicios</h2>
+					<ul>
+						<li>Diseño y desarrollo de sitios web</li>
+						<li>Posicionamiento y analisis de su desarrollo antes y despues</li>
+						<li>Accesibilidad desde diversos dispositivos</li>
+						<li>Gestores de contenido</li>
+						<li>Consultoria</li>
+						<li>Marketing online</li>
+						<li>Email markeing</li>
+						<li>Redes sociales</li>
+						<li>Caritos de compra</li>
+						<li>Dietetica online</li>
+					</ul>
+			</div> <!-- End of Col_servicios1 -->
 
-		<div class="Contenedor_Servicios2">
-			
-		</div> <!-- End of Contenedor_Servicios2 -->
+			<div class="Col_servicios2">
+				<h2>Clientes</h2>
+					<ul>
+						<li>Veganis</li>
+						<li>Emeth</li>
+						<li>Crinway</li>
+						<li>Villares</li>
+						<li>Cliente 5</li>
+						<li>Cliente 6</li>
+						<li>Cliente 7</li>
+						<li>Cliente 8</li>
+						<li>Cliente 9</li>
+						<li>Cliente 10</li>
+					</ul>
+			</div> <!-- End of Col_servicios2 -->
+		</div> <!-- End of Contenedor_servicios -->
 	</section> <!-- End of Servicios -->
+
+	<section class="Contactenos">
+		 <div class="Contenedor_contactenos">
+		 	<input type="text" name="form" placeholder="Para mas info ingrese su email">
+		 	<a href="#">CONTACTARNOS</a>
+		 	<p>Tel: 0800-800-CONVIVIR</p>
+		 	<p class="small">Muchas gracias por contactarnos!</p>
+	</section> <!-- End of Contactenos -->
+
+	<footer>
+		<p>Avenida Santa Fe 1140, Local 18. Buenos Aires. Tel. (54 11) 4815-5240 / (11) 4811-1858</p>
+	</footer> <!-- End of footer -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/modernizr.custom.82794.js"></script>
+	<!-- JS -->
 	
 </body>
 </html>
